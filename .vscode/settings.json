@@ -1,0 +1,11 @@
+{
+	"jshint.enable": false,
+	"jscs.enable": false,
+	"flow.useNPMPackagedFlow": true,
+	"flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+	"typescript.validate.enable": false,
+	"javascript.validate.enable": false,
+	"editor.formatOnSave": true,
+	"eslint.autoFixOnSave": true,
+	"files.eol": "\n",
+}

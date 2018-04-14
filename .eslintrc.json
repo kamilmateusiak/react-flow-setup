@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:flowtype/recommended",
+        "plugin:react/recommended",
+        "prettier/react"
+    ],
+    "plugins": [
+        "react",
+        "flowtype",
+        "prettier",
+        "import",
+        "jsx-a11y"
+    ],
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "react/jsx-filename-extension": [1, {"extensions": [".js"]}],
+        "prettier/prettier": ["error", { "printWidth": 120, "singleQuote": true, "parser": "flow" } ]
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}
